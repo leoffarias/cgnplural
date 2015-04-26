@@ -18,38 +18,46 @@ a {
 .principal {
 	height:100%;
 	/*background: rgb(231,231,231);*/
-	background: #B21C1C;
+	/*background: #B21C1C;*/
+	background:#96120F;
 }
 
 .superior {
-	height:75%;
+	height:80%;
 }
 
 .inferior {
-	height:25%;
+	height:20%;
 
 }
 
 .btn-plural {
-	width:25%;
-	height:100%;
+	width:22%;
+	height:80%;
 	float:left;
+	margin-top:2%;
 }
 
 .btn-in {
-background:orange;
+background:#3268E5;
+margin-right:3%;
+margin-left:1.5%;
 }
 
 .btn-on {
-background:green;
+background:#EEB211;
+margin-right:3%;
 }
 
 .btn-midia {
-background:blue;
+/*background:#D50F25;*/
+/*background:#E2F89C;*/
+background:#D4F2D2;
+margin-right:3%;
 }
 
 .btn-out {
-background:yellow;
+background:#009925;
 }
 
 nav {
@@ -75,14 +83,16 @@ nav ul li {
 }
 
 #logo-grande {
-width:520px;
-height:623px;
+/*width:520px;
+height:623px;*/
+width:450px;
+height:539px;
 }
 
 #logo-grande:hover {
 	cursor:pointer;
-	/*width:550px;
-	height:659px;*/
+	width:470px;
+	height:563px;
 }
 
 /*

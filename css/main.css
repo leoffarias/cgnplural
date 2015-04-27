@@ -91,7 +91,7 @@ a {
 }
 
 .btn-plural:hover {
-	background:white;
+	background:white !important;
 }
 
 .hdn-txt {
@@ -137,7 +137,7 @@ a {
 }
 
 .btn-in:hover .plural-tit {
-	color:#3268E5;
+	color:#3268E5 !important;
 }
 
 .icon {
@@ -162,7 +162,7 @@ a {
 }
 
 .btn-on:hover .plural-tit {
-	color:#EEB211;
+	color:#EEB211 !important;
 }
 
 .icon-on {
@@ -186,7 +186,7 @@ a {
 }
 
 .btn-midia:hover .plural-tit {
-	color:#23967F;
+	color:#23967F !important;
 }
 
 .icon-midia {
@@ -206,7 +206,7 @@ a {
 }
 
 .btn-out:hover .plural-tit {
-	color:#009925;
+	color:#009925 !important;
 }
 
 .icon-out {

@@ -25,6 +25,7 @@ a {
 
 .principal {
 	height:100%;
+	min-height:777px;
 	/*background: rgb(231,231,231);*/
 	/*background: #B21C1C;*/
 	/*background:#96120F;*/
@@ -150,7 +151,8 @@ a {
 }
 
 .plural-tit {
-	font-size:7.5em;
+	/*font-size:7.5em;*/
+	font-size:6em;
 	text-transform: uppercase;
 	font-weight: bold;
 	color:white;
@@ -179,7 +181,8 @@ a {
 }
 
 .btn-midia .plural-tit {
-	font-size:4.3em;
+	/*font-size:4.3em;*/
+	font-size:3em;
 	float:right;
 	margin-top:8%;
 	margin-right:5%;
@@ -199,7 +202,8 @@ a {
 }
 
 .btn-out .plural-tit {
-	font-size:6em;
+	/*font-size:6em;*/
+	font-size:4em;
 	float:right;
 	margin-top:3%;
 	margin-right:6%;

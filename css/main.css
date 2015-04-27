@@ -51,6 +51,14 @@ a {
 	margin-left:1.5%;
 }
 
+.btn-plural:hover {
+	background:white;
+}
+
+.btn-in:hover .plural-tit {
+	color:#3268E5;
+}
+
 .icon {
 	float:left;
 }
@@ -70,6 +78,10 @@ a {
 .btn-on {
 	background:#EEB211;
 	margin-right:3%;
+}
+
+.btn-on:hover .plural-tit {
+	color:#EEB211;
 }
 
 .icon-on {
@@ -92,6 +104,10 @@ a {
 	margin-right:5%;
 }
 
+.btn-midia:hover .plural-tit {
+	color:#23967F;
+}
+
 .icon-midia {
 	height:100%;
 	margin-left:16%;
@@ -106,6 +122,10 @@ a {
 	float:right;
 	margin-top:3%;
 	margin-right:6%;
+}
+
+.btn-out:hover .plural-tit {
+	color:#009925;
 }
 
 .icon-out {
@@ -178,28 +198,28 @@ height:539px;
 	color:rgb(100,100,100);
 }
 
-.on, .out {
+#on, #out {
 	background:#eee;
 }
 
-.in .p-tit, .midia .p-tit {
+#in .p-tit, #midia .p-tit {
 	float:left;
 	max-width:500px;
 	margin-left:5%;
 }
 
-.in img, .midia img {
+#in img, #midia img {
 	float:right;
 	margin-right:5%;
 }
 
-.on .p-tit, .out .p-tit {
+#on .p-tit, #out .p-tit {
 	float:right;
 	max-width:500px;
 	margin-right:5%;
 }
 
-.on img, .out img {
+#on img, #out img {
 	float:left;
 	margin-left:5%;
 }

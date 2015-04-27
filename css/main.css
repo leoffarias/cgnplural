@@ -15,6 +15,14 @@ a {
 	color:white;
 }
 
+:hover {
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
 .principal {
 	height:100%;
 	/*background: rgb(231,231,231);*/
@@ -27,6 +35,13 @@ a {
 
 .superior {
 	height:80%;
+}
+
+#balao1 {
+	display:none;
+	position:absolute;
+	top:25%;
+	left:25%;
 }
 
 .inferior {
@@ -53,6 +68,48 @@ a {
 
 .btn-plural:hover {
 	background:white;
+}
+
+.hdn-txt {
+	position:absolute;
+	z-index:-1;
+	height:25px;
+	background:white;
+	box-shadow:none;
+	width:20%;
+}
+
+.hdn-txt-in {
+	margin-left:2.5%;
+	color:#3268E5;
+}
+
+.hdn-txt-on {
+	margin-left:27.5%;
+	color:#EEB211;
+}
+
+
+.hdn-txt-midia {
+	margin-left:52.5%;
+	color:#23967F;
+}
+
+
+.hdn-txt-out {
+	margin-left:77.5%;
+	color:#009925;
+}
+
+
+.btn-link-in:hover .hdn-txt, .btn-link-on:hover .hdn-txt, .btn-link-midia:hover .hdn-txt, .btn-link-out:hover .hdn-txt   {
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+	margin-top:10px;
+	z-index:1;
 }
 
 .btn-in:hover .plural-tit {

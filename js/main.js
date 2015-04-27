@@ -20,4 +20,9 @@ $(function() {
   });
 });
 
+$( "#logo-grande" ).click(function() {
+  $("#balao1").fadeIn(500).animate({top:100},3000).fadeOut(500);
+});
+
+
 });

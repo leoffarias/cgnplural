@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/slick.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -18,14 +19,23 @@
 	<ul>
 		<!--<li><a href="#">Logo</a></li>-->
 		<li><a href="#">Institucional</a></li>
-		<li><a href="#">Parceiros & Clientes</a></li>
-		<li><a href="#">Contato</a></li>
+		<li><a href="#parceiros">Parceiros & Clientes</a></li>
+		<li><a href="#footer">Contato</a></li>
 	</ul>
 </nav>
 
 <div class="game">
-	<img id="balao1" src="img/balao-verde.png" />
+	<img id="balao1" class="balao" src="img/balao-verde.png" />
+	<img id="balao2" class="balao" src="img/balao-verde.png" />
+	<img id="balao3" class="balao" src="img/balao-verde.png" />
+	<img id="balao4" class="balao" src="img/balao-verde.png" />
+	<img id="balao5" class="balao" src="img/balao-verde.png" />
 <img id="logo-grande" src="img/Logo-Nova-Plural2.png" alt="logo CGN Plural" />
+
+<audio id="som">
+	<source src="img/som1.mp3"></source>
+</audio>
+
 </div>
 </div>
 
@@ -44,6 +54,7 @@
 <img src="img/icon2.png" class="icon icon-on" />
 <span class="plural-tit">ON</span>
 </div>
+</a>
 
 <a href="#midia" class="btn-link-midia">
 <div class="btn-plural hdn-txt hdn-txt-midia">Publicidade & Propaganda</div>
@@ -51,6 +62,7 @@
 <img src="img/icon2.png" class="icon icon-midia" />
 <span class="plural-tit">MÍDIA</span>
 </div>
+</a>
 
 <a href="#out" class="btn-link-out">
 <div class="btn-plural hdn-txt hdn-txt-out">Shows e Eventos</div>
@@ -58,6 +70,7 @@
 <img src="img/icon2.png" class="icon icon-out" />
 <span class="plural-tit">OUT</span>
 </div>
+</a>
 
 </div>
 
@@ -94,9 +107,22 @@
 			</div>
 		</div>
 
+				<div class="plural" id="parceiros">
+			<div class="site-wrap">
+				<span class="parc-tit">Parceiros & Clientes</span>
+          <div class="slider-parc">
+            <div ><a target="_blank" href="http://www.majoreventsinternational.com/"><img src="http://www.pluralin.com/img/mei.png" alt="mei" width="345" height="175"/></a></div>
+            <div ><a target="_blank" href="http://www.primebrasil.net/"><img src="http://www.pluralin.com/img/prime.png" alt="prime" width="345" height="175"/></a></div>
+            <div ><a target="_blank" href="http://www.virtualrecife.com.br/"><img src="http://www.pluralin.com/img/virtual.png" alt="virtual" width="345" height="175"/></a></div>
+            <div ><a target="_blank" href="http://www.qualimar.com.br/"><img src="http://www.pluralin.com/img/qualimar.png" alt="virtual" width="345" height="175"/></a></div>
+            <div ><a target="_blank" href="http://www.ondunorte.com.br/"><img src="http://www.pluralin.com/img/ondunorte.png" alt="virtual" width="345" height="175"/></a></div>
+          </div>
+			</div>
+		</div>
+
 	</div>
 
-	<footer>
+	<footer id="footer">
 		Rua General Joaquim Inácio, 830 • Sala 2112 • Edf. The Plaza • Ilha do Leite • Recife - PE • CEP: 50070-270
 		Tel: +55 81 31283190 • contato@pluralin.com • Produzido por Plural In © 2015
 	</footer>
@@ -104,5 +130,7 @@
 		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
         <script type="text/javascript" src="js/plax.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script type="text/javascript" src="js/jquery-color.js"></script>
 </body>
 </html>

@@ -4,10 +4,10 @@ html {
 
 body {
 	height:100%;
-	line-height: 1.45;
-	font-size: 1em;
-	font-weight: 400;
-	font-family: 'Roboto', sans-serif;
+	line-height: 1.55;
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -25,18 +25,20 @@ a {
 
 .principal {
 	height:100%;
-	min-height:777px;
 	/*background: rgb(231,231,231);*/
 	/*background: #B21C1C;*/
 	/*background:#96120F;*/
 	background-image: url("../img/Luzes-Acesas.png");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*background:fixed;*/
 }
 
+/*
 .superior {
-	height:80%;
-}
+	height:70%;
+}*/
 
 .balao {
 	display:none;
@@ -69,8 +71,38 @@ a {
 	left:40%;
 }
 
+#logo-grande {
+/*width:520px;
+height:623px;*/
+width:376px;
+height:450px;
+}
+
+#logo-grande:hover {
+	cursor:pointer;
+	width:393px;
+	height:470px;
+}
+/*
 .inferior {
-	height:20%;
+	height:30%;
+	text-align:center;
+	background:#ddd;
+}
+*/
+
+.inferior {
+	position:absolute;
+	top:70%;
+	left:25%;
+}
+.inferior a {
+	color:black;
+}
+
+.btns {
+	float:left;
+	width:25%;
 }
 
 .btn-plural {
@@ -237,19 +269,6 @@ nav ul li {
 	margin-top:50px;
 }
 
-#logo-grande {
-/*width:520px;
-height:623px;*/
-width:450px;
-height:539px;
-}
-
-#logo-grande:hover {
-	cursor:pointer;
-	width:470px;
-	height:563px;
-}
-
 /*
 
 .site-title {
@@ -276,7 +295,7 @@ height:539px;
 .produtos {
 	margin: 0 auto;
 	display: block;
-	font-size:1.3em;
+	font-size:1.1em;
 	color:rgb(100,100,100);
 }
 
@@ -296,11 +315,22 @@ height:539px;
 	color: #009925;
 }*/
 
+/* -----------segunda pagina------------- */
+
 #on, #out {
-	background:#eee;
+	/*background:#eee;
+	background:#95AFBA;
+	background:rgb(150,25,14);
+	background:#262730;
+	background:#545455;
+	background:#7C99B4;
+	*/
+	background:#3F7CAC;
+	color:white;
+	
 }
 
-#in .p-tit, #midia .p-tit {
+.p-tit-in, .p-tit-midia {
 	float:left;
 	max-width:500px;
 	margin-left:5%;
@@ -311,7 +341,7 @@ height:539px;
 	margin-right:5%;
 }
 
-#on .p-tit, #out .p-tit {
+.p-tit-on, .p-tit-out {
 	float:right;
 	max-width:500px;
 	margin-right:5%;
@@ -331,7 +361,11 @@ height:539px;
 	max-width:1200px;
 	margin:0 auto;
 }
-
+.in-tit {
+	text-align: center;
+	font-size:1.3em;
+	font-weight: bold;
+}
 #parceiros {
 	text-align:center;
 }

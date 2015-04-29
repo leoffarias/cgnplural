@@ -12,7 +12,7 @@ body {
 
 a {
 	text-decoration: none;
-	color:white;
+	color:black;
 }
 
 :hover {
@@ -96,8 +96,9 @@ height:450px;
 	top:70%;
 	left:25%;
 }
-.inferior a {
-	color:black;
+
+.white {
+	color:white;
 }
 
 .btns {
@@ -264,6 +265,10 @@ nav ul li {
 	padding:0 3%;
 }
 
+nav a {
+	color:white;
+}
+
 .game {
 	text-align:center;
 	margin-top:50px;
@@ -317,6 +322,10 @@ nav ul li {
 
 /* -----------segunda pagina------------- */
 
+#in {
+	height:300px;
+}
+
 #on, #out {
 	/*background:#eee;
 	background:#95AFBA;
@@ -331,35 +340,29 @@ nav ul li {
 }
 
 .p-tit-in, .p-tit-midia {
-	float:left;
-	max-width:500px;
-	margin-left:5%;
-}
 
-#in img, #midia img {
-	float:right;
-	margin-right:5%;
+	max-width:500px;
+	float:left;
+	margin-left:10%;
 }
 
 .p-tit-on, .p-tit-out {
-	float:right;
-	max-width:500px;
-	margin-right:5%;
-}
 
-#on img, #out img {
-	float:left;
-	margin-left:5%;
+	max-width:500px;
+	float:right;
 }
 
 .plural {
-	height:215px;
 	padding:5% 0;
 }
 
 .site-wrap {
 	max-width:1200px;
 	margin:0 auto;
+}
+
+.img-wrap {
+	text-align:center;
 }
 .in-tit {
 	text-align: center;

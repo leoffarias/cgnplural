@@ -1,5 +1,44 @@
 $(document).ready(function(){
 
+//Saiba mais
+var hdn = $( ".hid" );
+var on = 0;
+$(".saiba-on").click(function(){
+  if(on == 0) {
+  $("#on").animate({"height": "750px"},100);
+  on++;
+} else {
+  $("#on").animate({"height": "250px"},100);
+  on = 0;
+}
+  $(this).parent().find(hdn).slideToggle("slow");
+});
+
+var midia = 0;
+$(".saiba-midia").click(function(){
+  if(midia == 0) {
+  $("#midia").animate({"height": "650px"},100);
+  midia++;
+} else {
+  $("#midia").animate({"height": "250px"},100);
+  midia = 0;
+}
+  $(this).parent().find(hdn).slideToggle("slow");
+});
+
+var out = 0;
+$(".saiba-out").click(function(){
+  if(out == 0) {
+  $("#out").animate({"height": "500px"},100);
+  out++;
+} else {
+  $("#out").animate({"height": "250px"},100);
+  out = 0;
+}
+  $(this).parent().find(hdn).slideToggle("slow");
+});
+
+
 //Plax
 $('#logo-grande').plaxify({"xRange":160,"yRange":30,"invert":true})
 $.plax.enable();

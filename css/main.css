@@ -12,7 +12,7 @@ body {
 
 a {
 	text-decoration: none;
-	color:black;
+	color:rgb(100,100,100);
 }
 
 :hover {
@@ -339,6 +339,16 @@ nav a {
 	
 }
 
+.hid {
+	display:none;
+}
+
+.saiba {
+	text-decoration:underline;
+	font-weight:bold;
+	cursor:pointer;
+}
+
 .p-tit-in, .p-tit-midia {
 
 	max-width:500px;
@@ -350,6 +360,11 @@ nav a {
 
 	max-width:500px;
 	float:right;
+}
+
+ .tit-interno {
+	color:#f0c44b;
+	font-weight: bold;
 }
 
 .plural {

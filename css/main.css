@@ -38,40 +38,40 @@ a {
 /*
 .superior {
 	height:70%;
-}*/
+	}*/
 
-.balao {
-	display:none;
-	position:absolute;
-	z-index:9999;
-}
+	.balao {
+		display:none;
+		position:absolute;
+		z-index:9999;
+	}
 
-#balao1 {
-	top:25%;
-	left:25%;
-}
+	#balao1 {
+		top:25%;
+		left:25%;
+	}
 
-#balao2 {
-	top: 50%;
-	left:62%;
-}
+	#balao2 {
+		top: 50%;
+		left:62%;
+	}
 
-#balao3 {
-	top:50%;
-	left:22%;
-}
+	#balao3 {
+		top:50%;
+		left:22%;
+	}
 
-#balao4 {
-	top:30%;
-	left:65%;
-}
+	#balao4 {
+		top:30%;
+		left:65%;
+	}
 
-#balao5 {
-	top:42%;
-	left:40%;
-}
+	#balao5 {
+		top:42%;
+		left:40%;
+	}
 
-#logo-grande {
+	#logo-grande {
 /*width:520px;
 height:623px;*/
 width:376px;
@@ -318,12 +318,12 @@ nav a {
 
 #out {
 	color: #009925;
-}*/
+	}*/
 
-/* -----------segunda pagina------------- */
+	/* -----------segunda pagina------------- */
 
 
-#on, #out {
+	#on, #out {
 	/*background:#eee;
 	background:#95AFBA;
 	background:rgb(150,25,14);
@@ -340,10 +340,47 @@ nav a {
 	display:none;
 }
 
+.hid-wrap {
+		max-width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.block {
+	width:30%;
+	float:left;
+}
+
+.mid {
+	padding:0 5%;
+}
+
+.right {
+	float:right;
+}
+
 .saiba {
+	clear:both;
 	text-decoration:underline;
 	font-weight:bold;
 	cursor:pointer;
+	margin-left:10%;
+}
+
+.saiba-btn {
+	height:38px;
+	width:38px;
+	background-image: url("../img/saibamais.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	float:left;
+	margin-right:10px;
+}
+
+.saiba-rot {
+	-ms-transform: rotate(45deg); /* IE 9 */
+	-webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+	transform: rotate(45deg);
 }
 
 .p-tit-in, .p-tit-midia {
@@ -359,7 +396,7 @@ nav a {
 	float:right;
 }
 
- .tit-interno {
+.tit-interno {
 	color:#f0c44b;
 	font-weight: bold;
 }
@@ -400,7 +437,7 @@ footer {
 }
 
 .nav-inst {
-		background:rgb(150,25,14);
+	background:rgb(150,25,14);
 }
 
 .hid-inst {

@@ -1,17 +1,18 @@
 $(document).ready(function(){
 
 //Saiba mais
-var hdn = $( ".hid" );
-
 $(".saiba").click(function(){
 
-  $(this).parent().find(hdn).slideToggle("slow");
+  $(this).find($(".saiba-btn")).toggleClass('saiba-rot');
+  $(this).parent().find($( ".hid" )).slideToggle("slow");
+  var target = $(this).parent().parent().find($('.rolar')).offset().top;
+  $('html, body').animate({scrollTop: target}, 1000);
 });
 
 
-//Plax
+/*//Plax
 $('#logo-grande').plaxify({"xRange":160,"yRange":30,"invert":true})
-$.plax.enable();
+$.plax.enable();*/
 
 //Descer
 $(function() {

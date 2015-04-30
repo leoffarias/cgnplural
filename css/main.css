@@ -347,12 +347,16 @@ nav a {
 }
 
 .block {
-	width:30%;
+	width:45%;
 	float:left;
 }
 
+.val {
+	text-align:center;
+}
+
 .mid {
-	padding:0 5%;
+	float:right;
 }
 
 .right {
@@ -377,10 +381,14 @@ nav a {
 	margin-right:10px;
 }
 
+.btn2{
+	background-image: url("../img/saibamais2.png");
+}
+
 .saiba-rot {
-	-ms-transform: rotate(45deg); /* IE 9 */
-	-webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-	transform: rotate(45deg);
+	-ms-transform: rotate(180deg); /* IE 9 */
+	-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+	transform: rotate(180deg);
 }
 
 .p-tit-in, .p-tit-midia {
@@ -432,8 +440,16 @@ footer {
 	background:rgb(150,25,14);
 	clear:both;
 	color:white;
-	text-align:center;
-	padding:3% 0;
+	padding:3% 0 0 0;
+	font-size:0.8em;
+}
+
+footer img {
+	width:30px;
+	height:30px;
+	margin-right:20px;
+	margin-left:30%;
+	float:left;
 }
 
 .nav-inst {
@@ -446,4 +462,9 @@ footer {
 
 .p-tit-inst {
 	max-width:1200px;
+}
+
+.prod-img {
+	height:251px;
+	width:450px;
 }

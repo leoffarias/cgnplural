@@ -322,9 +322,6 @@ nav a {
 
 /* -----------segunda pagina------------- */
 
-#in {
-	height:300px;
-}
 
 #on, #out {
 	/*background:#eee;
@@ -374,6 +371,7 @@ nav a {
 .site-wrap {
 	max-width:1200px;
 	margin:0 auto;
+	overflow:hidden;
 }
 
 .img-wrap {

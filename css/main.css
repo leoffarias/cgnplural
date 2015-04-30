@@ -396,4 +396,17 @@ footer {
 	clear:both;
 	color:white;
 	text-align:center;
+	padding:3% 0;
+}
+
+.nav-inst {
+		background:rgb(150,25,14);
+}
+
+.hid-inst {
+	width:1000px;
+}
+
+.p-tit-inst {
+	max-width:1200px;
 }

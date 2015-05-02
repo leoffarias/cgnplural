@@ -101,11 +101,17 @@ $('.slider-parc').slick({
   arrows:false,
   responsive: [
   {
-    breakpoint: 622,
+    breakpoint: 1200,
+    settings: {
+      slidesToShow: 2
+    }
+  },
+  {
+    breakpoint: 650,
     settings: {
       slidesToShow: 1
     }
-  }
+  } 
   ]
 });
 

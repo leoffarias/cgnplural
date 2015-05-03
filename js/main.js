@@ -101,13 +101,13 @@ $('.slider-parc').slick({
   arrows:false,
   responsive: [
   {
-    breakpoint: 1200,
+    breakpoint: 1000,
     settings: {
       slidesToShow: 2
     }
   },
   {
-    breakpoint: 650,
+    breakpoint: 740,
     settings: {
       slidesToShow: 1
     }

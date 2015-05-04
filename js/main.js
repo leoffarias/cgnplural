@@ -5,7 +5,7 @@ $(".saiba").click(function(){
 
   $(this).find($(".saiba-btn")).toggleClass('saiba-rot');
   $(this).parent().find($( ".hid" )).slideToggle("slow");
-  var target = $(this).parent().parent().find($('.rolar')).offset().top;
+  var target = $(this).parent().parent().offset().top;
   $('html, body').animate({scrollTop: target}, 1000);
 });
 

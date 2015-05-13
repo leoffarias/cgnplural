@@ -66,6 +66,8 @@ var acao = 1;
 
 $( "#logo-grande" ).click(function() {
 
+  if ($(window).width() >= 690) {
+
   if(msgs == 1) {
     $("#balao1").fadeIn(500).animate({top:topv},3000).fadeOut(500).queue(function() { $( '.in-icon' ).attr("src","img/IconeIN.svg");  });
     $( '.in-icon' ).attr("src","img/Icone-IN-cor.svg");
@@ -115,6 +117,7 @@ $( "#logo-grande" ).click(function() {
    msgs = 1;
   }
 
+}
 });
 
 $('.slider-parc').slick({

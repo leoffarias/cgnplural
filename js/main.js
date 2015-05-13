@@ -1,14 +1,5 @@
 $(document).ready(function(){
 
-//Saiba mais
-$(".saiba").click(function(){
-
-  $(this).find($(".saiba-btn")).toggleClass('saiba-rot');
-  $(this).parent().find($( ".hid" )).slideToggle("slow");
-  var target = $(this).parent().parent().offset().top;
-  $('html, body').animate({scrollTop: target}, 1000);
-});
-
 //mudar icone
 $(".in-icon").hover(function() {
 $( '.in-icon' ).attr("src","img/Icone-MenuIN-cor.svg");
@@ -69,25 +60,25 @@ $( "#logo-grande" ).click(function() {
   if ($(window).width() >= 690) {
 
   if(msgs == 1) {
-    $("#balao1").fadeIn(500).animate({top:topv},3000).fadeOut(500).queue(function() { $( '.in-icon' ).attr("src","img/Icone-MenuIN.svg");  });
+    $("#balao1").fadeIn(500).animate({top:topv},3000).fadeOut(500).queue(function() { $( '.in-icon' ).attr("src","img/Icone-MenuIN.svg"); $(this).dequeue(); });
     $( '.in-icon' ).attr("src","img/Icone-MenuIN-cor.svg");
     audio.play();
     msgs++;
 
   } else if (msgs == 2) {
-        $("#balao2").fadeIn(500).animate({top:topv},3000).fadeOut(500).queue(function() { $( '.on-icon' ).attr("src","img/Icone-MenuON.svg");  });
+        $("#balao2").fadeIn(500).animate({top:topv},3000).fadeOut(500).queue(function() { $( '.on-icon' ).attr("src","img/Icone-MenuON.svg"); $(this).dequeue(); });
     $( '.on-icon' ).attr("src","img/Icone-MenuON-cor.svg");
      audio.play();
     msgs++;
 
   } else if (msgs == 3) {
-    $("#balao3").fadeIn(500).animate({top:topv},3000).fadeOut(500).queue(function() { $( '.midia-icon' ).attr("src","img/Icone-MenuMIDIA.svg");  });
+    $("#balao3").fadeIn(500).animate({top:topv},3000).fadeOut(500).queue(function() { $( '.midia-icon' ).attr("src","img/Icone-MenuMIDIA.svg"); $(this).dequeue(); });
     $( '.midia-icon' ).attr("src","img/Icone-MenuMIDIA-cor.svg");
     audio.play();
     msgs++;
     
   } else if (msgs == 4) {
-    $("#balao4").fadeIn(500).animate({top:topv},3000).fadeOut(500).queue(function() { $( '.out-icon' ).attr("src","img/Icone-MenuOUT.svg");  });
+    $("#balao4").fadeIn(500).animate({top:topv},3000).fadeOut(500).queue(function() { $( '.out-icon' ).attr("src","img/Icone-MenuOUT.svg"); $(this).dequeue(); });
     $( '.out-icon' ).attr("src","img/Icone-MenuOUT-cor.svg");
     audio.play();
     msgs++;
@@ -96,7 +87,7 @@ $( "#logo-grande" ).click(function() {
     $("#balao5").fadeIn(500).animate({top:topv2},5000).fadeOut(500).queue(function() { $( '.in-icon' ).attr("src","img/Icone-MenuIN.svg"); 
     $( '.on-icon' ).attr("src","img/Icone-MenuON.svg");
     $( '.midia-icon' ).attr("src","img/Icone-MenuMIDIA.svg");
-    $( '.out-icon' ).attr("src","img/Icone-MenuOUT.svg"); });
+    $( '.out-icon' ).attr("src","img/Icone-MenuOUT.svg"); $(this).dequeue(); });
 
     $( '.in-icon' ).attr("src","img/Icone-MenuIN-cor.svg");
     $( '.on-icon' ).attr("src","img/Icone-MenuON-cor.svg");

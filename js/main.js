@@ -100,7 +100,7 @@ $( "#logo-grande" ).click(function() {
     $( '.on-icon' ).attr("src","img/Icone-ON-cor.svg");
     $( '.midia-icon' ).attr("src","img/Icone-MIDIA-cor.svg");
     $( '.out-icon' ).attr("src","img/Icone-OUT-cor.svg");
-
+    
 
     audio.play();
     if (acao == 1) {

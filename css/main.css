@@ -31,12 +31,12 @@ a {
 	background:black;
 	/*background:fixed;*/
 	color:white;
-	min-height:710px;
+	min-height:755px;
 }
 
 .icons {
 	width:150px;
-	height:150px;
+	height:200px;
 }
 
 
@@ -98,14 +98,6 @@ height:470px;
 	background:#ddd;
 }
 */
-
-.inferior {
-	margin-top:-20%;
-}
-
-.white {
-	color:white;
-}
 
 .btns {
 	float:left;
@@ -185,7 +177,7 @@ height:470px;
 
 .icon-in {
 	height:100%;
-	margin-left:16%; /*ATENCAO botar pra crescer e mudar pra icon1 quando scroll*/
+	margin-left:16%;
 }
 
 .plural-tit {
@@ -287,28 +279,6 @@ nav a {
 	margin-top:5%;
 }
 
-/*
-
-.site-title {
-	font-size:5em;
-	padding-top: 7%;
-
-	text-transform: uppercase;
-	font-weight: 700;
-	letter-spacing: 5px;
-	line-height: 1.2;
-}
-
-.site-subtitle {
-	font-size:0.8em;
-
-	text-transform: uppercase;
-	font-weight: 700;
-	letter-spacing: 5px;
-	line-height: 1.2;
-}
-
-*/
 
 .produtos {
 	margin: 0 auto;
@@ -520,10 +490,6 @@ footer img {
 	color: rgb(100,100,100);
 }
 
-.slider-parc {
-
-}
-
 .slider-parc img {
 	max-width:200px;
 	height:116px;
@@ -536,6 +502,30 @@ footer img {
 .slick-slider {
 	margin-left:147px;
 }
+/*
+.fotos {
+	height:400px;
+	
+		background-size: 100% 100%;
+	background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.fotoin {
+	background-image: url("../img/Consultoria.jpg");
+}
+
+.fotoon {
+	background-image: url("../img/fundoon.jpg");
+}
+
+.fotomidia {
+	background-image: url("../img/TV-Dorinha.jpg");
+}
+
+.fotoout {
+background-image: url("../img/show.jpg");
+}*/
 
 
 @media(max-height:819px) {
@@ -578,11 +568,11 @@ footer img {
 		height:315px;
 	}
 	.icons {
-		height:100px;
+		height:150px;
 		width:100px;
 	}
 	.principal {
-		min-height: 510px;
+		min-height: 570px;
 	}
 }
 
@@ -606,7 +596,7 @@ footer img {
 	}
 
 	.principal {
-		height: 1050px;
+		height: 1150px;
 	}
 }
 

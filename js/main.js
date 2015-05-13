@@ -11,29 +11,29 @@ $(".saiba").click(function(){
 
 //mudar icone
 $(".in-icon").hover(function() {
-$( '.in-icon' ).attr("src","img/Icone-IN-cor.svg");
+$( '.in-icon' ).attr("src","img/Icone-MenuIN-cor.svg");
 }, function() {
-$( '.in-icon' ).attr("src","img/IconeIN.svg");
+$( '.in-icon' ).attr("src","img/Icone-MenuIN.svg");
 });
 
 $(".on-icon").hover(function() {
-$( '.on-icon' ).attr("src","img/Icone-ON-cor.svg");
+$( '.on-icon' ).attr("src","img/Icone-MenuON-cor.svg");
 }, function() {
-$( '.on-icon' ).attr("src","img/IconeON.svg");
+$( '.on-icon' ).attr("src","img/Icone-MenuON.svg");
 });
 
 
 $(".midia-icon").hover(function() {
-$( '.midia-icon' ).attr("src","img/Icone-MIDIA-cor.svg");
+$( '.midia-icon' ).attr("src","img/Icone-MenuMIDIA-cor.svg");
 }, function() {
-$( '.midia-icon' ).attr("src","img/IconeMIDIA.svg");
+$( '.midia-icon' ).attr("src","img/Icone-MenuMIDIA.svg");
 });
 
 
 $(".out-icon").hover(function() {
-$( '.out-icon' ).attr("src","img/Icone-OUT-cor.svg");
+$( '.out-icon' ).attr("src","img/Icone-MenuOUT-cor.svg");
 }, function() {
-$( '.out-icon' ).attr("src","img/IconeOUT.svg");
+$( '.out-icon' ).attr("src","img/Icone-MenuOUT.svg");
 });
 
 
@@ -69,39 +69,39 @@ $( "#logo-grande" ).click(function() {
   if ($(window).width() >= 690) {
 
   if(msgs == 1) {
-    $("#balao1").fadeIn(500).animate({top:topv},3000).fadeOut(500).queue(function() { $( '.in-icon' ).attr("src","img/IconeIN.svg");  });
-    $( '.in-icon' ).attr("src","img/Icone-IN-cor.svg");
+    $("#balao1").fadeIn(500).animate({top:topv},3000).fadeOut(500).queue(function() { $( '.in-icon' ).attr("src","img/Icone-MenuIN.svg");  });
+    $( '.in-icon' ).attr("src","img/Icone-MenuIN-cor.svg");
     audio.play();
     msgs++;
 
   } else if (msgs == 2) {
-        $("#balao2").fadeIn(500).animate({top:topv},3000).fadeOut(500).queue(function() { $( '.on-icon' ).attr("src","img/IconeON.svg");  });
-    $( '.on-icon' ).attr("src","img/Icone-ON-cor.svg");
+        $("#balao2").fadeIn(500).animate({top:topv},3000).fadeOut(500).queue(function() { $( '.on-icon' ).attr("src","img/Icone-MenuON.svg");  });
+    $( '.on-icon' ).attr("src","img/Icone-MenuON-cor.svg");
      audio.play();
     msgs++;
 
   } else if (msgs == 3) {
-    $("#balao3").fadeIn(500).animate({top:topv},3000).fadeOut(500).queue(function() { $( '.midia-icon' ).attr("src","img/IconeMIDIA.svg");  });
-    $( '.midia-icon' ).attr("src","img/Icone-MIDIA-cor.svg");
+    $("#balao3").fadeIn(500).animate({top:topv},3000).fadeOut(500).queue(function() { $( '.midia-icon' ).attr("src","img/Icone-MenuMIDIA.svg");  });
+    $( '.midia-icon' ).attr("src","img/Icone-MenuMIDIA-cor.svg");
     audio.play();
     msgs++;
     
   } else if (msgs == 4) {
-    $("#balao4").fadeIn(500).animate({top:topv},3000).fadeOut(500).queue(function() { $( '.out-icon' ).attr("src","img/IconeOUT.svg");  });
-    $( '.out-icon' ).attr("src","img/Icone-OUT-cor.svg");
+    $("#balao4").fadeIn(500).animate({top:topv},3000).fadeOut(500).queue(function() { $( '.out-icon' ).attr("src","img/Icone-MenuOUT.svg");  });
+    $( '.out-icon' ).attr("src","img/Icone-MenuOUT-cor.svg");
     audio.play();
     msgs++;
     
   } else if (msgs == 5) {
-    $("#balao5").fadeIn(500).animate({top:topv2},5000).fadeOut(500).queue(function() { $( '.in-icon' ).attr("src","img/IconeIN.svg"); 
-    $( '.on-icon' ).attr("src","img/IconeON.svg");
-    $( '.midia-icon' ).attr("src","img/IconeMIDIA.svg");
-    $( '.out-icon' ).attr("src","img/IconeOUT.svg"); });
+    $("#balao5").fadeIn(500).animate({top:topv2},5000).fadeOut(500).queue(function() { $( '.in-icon' ).attr("src","img/Icone-MenuIN.svg"); 
+    $( '.on-icon' ).attr("src","img/Icone-MenuON.svg");
+    $( '.midia-icon' ).attr("src","img/Icone-MenuMIDIA.svg");
+    $( '.out-icon' ).attr("src","img/Icone-MenuOUT.svg"); });
 
-    $( '.in-icon' ).attr("src","img/Icone-IN-cor.svg");
-    $( '.on-icon' ).attr("src","img/Icone-ON-cor.svg");
-    $( '.midia-icon' ).attr("src","img/Icone-MIDIA-cor.svg");
-    $( '.out-icon' ).attr("src","img/Icone-OUT-cor.svg");
+    $( '.in-icon' ).attr("src","img/Icone-MenuIN-cor.svg");
+    $( '.on-icon' ).attr("src","img/Icone-MenuON-cor.svg");
+    $( '.midia-icon' ).attr("src","img/Icone-MenuMIDIA-cor.svg");
+    $( '.out-icon' ).attr("src","img/Icone-MenuOUT-cor.svg");
     
 
     audio.play();
